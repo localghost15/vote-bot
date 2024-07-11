@@ -4,7 +4,7 @@ from aiogram.types import User as TelegramUser
 
 
 class User(models.Model):
-    id = fields.IntField(primary_key=True)
+    id = fields.BigIntField(primary_key=True)
     username = fields.CharField(max_length=255, null=True)
     first_name = fields.CharField(max_length=255)
     last_name = fields.CharField(max_length=255, null=True)

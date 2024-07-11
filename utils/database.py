@@ -9,6 +9,6 @@ async def init_db() -> None:
     logger.info("Initializing the database...")
     await Tortoise.init(
         db_url=settings.db_url,
-        modules={'models': ['models.user', 'models.poll', 'models.vote']},
+        modules={'models': ['models.user', 'models.poll', 'models.vote', 'models.channel', 'models.poll_message']},
     )
     await Tortoise.generate_schemas()

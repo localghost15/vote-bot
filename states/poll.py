@@ -5,4 +5,5 @@ class PollCreation(StatesGroup):
     title = State()
     post = State()
     options = State()
-    finish = State()
+    channels = State()
+    send = State()
