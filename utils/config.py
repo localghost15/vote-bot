@@ -13,7 +13,7 @@ class Settings(BaseSettings):
         env_file = ".env"
 
 
-ADMINS = [880280670, 492298778, 1657632040]
+ADMINS = [884898025]
 START_COMMAND_DESCRIPTION = 'Start | Restart'
 
 predefined_channels = [
