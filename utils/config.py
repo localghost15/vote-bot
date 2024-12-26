@@ -17,9 +17,9 @@ ADMINS = [884898025]
 START_COMMAND_DESCRIPTION = 'Start | Restart'
 
 predefined_channels = [
-    {'name': 'Osiyo Xalqaro Universiteti', 'id': -1001531148425},
+#     {'name': 'Osiyo Xalqaro Universiteti', 'id': -1001531148425},
     {'name': 'OXU Students', 'id': -1001958249407},
-    {'name': 'OXU Life', 'id': -1002047515668}
+#     {'name': 'OXU Life', 'id': -1002047515668}
 ]
 
 COMMANDS: List[BotCommand] = [
